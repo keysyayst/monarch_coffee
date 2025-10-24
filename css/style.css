@@ -1,11 +1,11 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
   --primary: #800000;
-  --dark: #1E1E1E;
-  --light: #F5F1E9;
-  --white: #FFFFFF;
+  --dark: #1e1e1e;
+  --light: #f5f1e9;
+  --white: #ffffff;
 }
 
 * {
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--dark);
   background-color: var(--light);
 }
@@ -39,7 +39,7 @@ header {
 
 header.scrolled {
   background-color: var(--white);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -95,7 +95,7 @@ header.scrolled {
 
 /* HERO */
 .hero {
-  background: url('../img/leaf-bg.jpg') center/cover no-repeat;
+  background: url("../img/leaf-bg.jpg") center/cover no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -108,7 +108,10 @@ header.scrolled {
 .hero::after {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -119,7 +122,7 @@ header.scrolled {
 }
 
 .hero h1 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-size: 3rem;
   letter-spacing: 1.5px;
@@ -129,7 +132,7 @@ header.scrolled {
 }
 
 .hero p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
   color: #ffffff;
@@ -230,7 +233,6 @@ header.scrolled {
   }
 }
 
-
 /* ================= ABOUT US SECTION (ZIGZAG STYLE) ================= */
 .about-section {
   width: 100%;
@@ -279,7 +281,7 @@ header.scrolled {
 .about-text p {
   font-size: 1rem;
   line-height: 1.8;
-  color: #2E2E2E;
+  color: #2e2e2e;
   margin-bottom: 15px;
 }
 
@@ -299,8 +301,6 @@ header.scrolled {
     padding: 20px;
   }
 }
-
-
 
 /* CONTACT */
 .contact {
@@ -349,7 +349,7 @@ header.scrolled {
 }
 
 .contact-section h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
   color: #000;
@@ -357,7 +357,7 @@ header.scrolled {
 }
 
 .contact-section p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #222;
   line-height: 1.8;
@@ -384,7 +384,7 @@ header.scrolled {
   width: 100%;
   padding: 14px;
   border: 1px solid #ccc;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   background-color: #fff;
   transition: all 0.3s ease;
@@ -404,7 +404,7 @@ header.scrolled {
   border: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   cursor: pointer;
   transition: 0.3s;
@@ -414,14 +414,13 @@ header.scrolled {
   background-color: #000;
 }
 
-
 /* =============== FOOTER SECTION =============== */
 .footer {
   background-color: #fff;
   border-top: 1px solid #e5e5e5;
   padding: 80px 10%;
   color: #444;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .footer-container {
@@ -438,7 +437,7 @@ header.scrolled {
 
 /* Brand Logo */
 .footer-logo {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   font-weight: 600;
   color: #2e2e2e;
@@ -471,7 +470,7 @@ header.scrolled {
 
 /* Links section */
 .footer-heading {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -512,7 +511,7 @@ header.scrolled {
 
 /* Partner Column */
 .partner-logo {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.8rem;
   font-style: italic;
   color: #222;
@@ -644,7 +643,7 @@ header.scrolled {
   gap: 80px;
 }
 
-.review-section h1{
+.review-section h1 {
   font-size: 2.5rem;
   color: #800000;
   text-align: center;
@@ -721,7 +720,7 @@ header.scrolled {
 
 /* ================= REVIEW SECTION ================= */
 .reviews {
-  background-color: #F5F1E9;
+  background-color: #f5f1e9;
   padding: 80px 20px;
   text-align: center;
 }
@@ -767,19 +766,19 @@ header.scrolled {
 .review-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 5px;
 }
 
 .stars {
-  color: #FFD700;
+  color: #ffd700;
   font-size: 1.2rem;
   margin-bottom: 15px;
 }
 
 .review-text {
   font-size: 0.95rem;
-  color: #2E2E2E;
+  color: #2e2e2e;
   line-height: 1.5;
   font-style: italic;
   padding: 0 10px;
@@ -858,18 +857,20 @@ header.scrolled {
 }
 
 /* ==================== GLOBAL FIX ==================== */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   width: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
-
 
 /* ================= OPENING TIMES SECTION (WITH BACKGROUND IMAGE) ================= */
 .opening-times-section {
@@ -884,9 +885,11 @@ html, body {
 .opening-times-section::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: url('/img/cafe.jpg') center/cover no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/img/cafe.jpg") center/cover no-repeat;
   filter: brightness(0.35);
   z-index: 0;
 }
@@ -895,8 +898,10 @@ html, body {
 .opening-times-section::after {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -1037,7 +1042,7 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 999;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links {
@@ -1050,12 +1055,29 @@ html, body {
   text-decoration: none;
   color: #3a2f2f;
   font-weight: 600;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   transition: color 0.3s;
 }
 
 .nav-links li a:hover {
   color: #b68a63;
+}
+
+/* Active link styling: menandai halaman saat ini */
+.nav-links li a.active {
+  color: var(--primary);
+  position: relative;
+  font-weight: 700;
+}
+.nav-links li a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
 }
 
 /* ===== HAMBURGER MENU ===== */
@@ -1086,7 +1108,7 @@ html, body {
     top: 70px;
     right: 0;
     width: 100%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
   .nav-links.active {
@@ -1142,13 +1164,13 @@ html, body {
   border-radius: 16px;
   padding: 40px 30px;
   width: 330px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: all 0.4s ease;
 }
 
 .layanan-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .layanan-card i {
@@ -1291,7 +1313,8 @@ html, body {
     flex-direction: column;
   }
 
-  .facility-text, .facility-img {
+  .facility-text,
+  .facility-img {
     max-width: 100%;
     padding: 0;
   }
@@ -1340,15 +1363,13 @@ html, body {
 
 .expertise-card img {
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: center;
   border-bottom: 3px solid #800000;
   display: block;
   height: 280px;
   border-radius: 12px 12px 0 0;
-
 }
-
 
 .expertise-card h3 {
   margin: 20px 20px 10px;

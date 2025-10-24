@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<?php
+  $currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <header id="mainHeader">
   <nav class="navbar">
     <div class="logo">
@@ -21,11 +24,11 @@
       <span>Monarch Coffee</span>
     </div>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.php">Beranda</a></li>
-      <li><a href="about.php">Tentang Kami</a></li>
-      <li><a href="menu.php">Menu</a></li>
-      <li><a href="layanan.php">Layanan</a></li>
-      <li><a href="contact.php">Kontak</a></li>
+      <li><a href="index.php" class="<?php echo ($currentPage === 'index.php') ? 'active' : ''; ?>">Beranda</a></li>
+      <li><a href="about.php" class="<?php echo ($currentPage === 'about.php') ? 'active' : ''; ?>">Tentang Kami</a></li>
+      <li><a href="menu.php" class="<?php echo ($currentPage === 'menu.php') ? 'active' : ''; ?>">Menu</a></li>
+      <li><a href="layanan.php" class="<?php echo ($currentPage === 'layanan.php') ? 'active' : ''; ?>">Layanan</a></li>
+      <li><a href="contact.php" class="<?php echo ($currentPage === 'contact.php') ? 'active' : ''; ?>">Kontak</a></li>
     </ul>
     <div class="hamburger" id="hamburger">
       <span></span>
